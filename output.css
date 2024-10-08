@@ -669,6 +669,10 @@ body {
   background-image: url('/assets/images/background-pattern-mobile.svg');
 }
 
+.bg-\[url\(\'\.\/assets\/images\/background-pattern-mobile\.svg\'\)\]{
+  background-image: url('./assets/images/background-pattern-mobile.svg');
+}
+
 .bg-repeat-x{
   background-repeat: repeat-x;
 }
@@ -743,6 +747,10 @@ body {
 
   .md\:bg-\[url\(\'\/assets\/images\/background-pattern-desktop\.svg\'\)\]{
     background-image: url('/assets/images/background-pattern-desktop.svg');
+  }
+
+  .md\:bg-\[url\(\'\.\/assets\/images\/background-pattern-desktop\.svg\'\)\]{
+    background-image: url('./assets/images/background-pattern-desktop.svg');
   }
 
   .md\:text-5xl{
